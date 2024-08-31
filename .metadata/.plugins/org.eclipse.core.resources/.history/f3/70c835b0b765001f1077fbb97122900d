@@ -1,0 +1,18 @@
+@OtherLoginFeature
+Feature: Other Codefios login functionality Validation(Negative Scenarios)
+
+  @OtherLoginScenario1
+  Scenario: User should not be able to login with invalid credential(other)
+    Given User is on the codefios login page
+    When User Enters username "demo@codefios.com"
+    When User enters password "abc123"
+    When User clicks on signin button
+    Then User should land on dashboard page
+
+  @OtherLoginScenario2
+  Scenario: User should not be able to login with invalid credential(other)
+    Given User is on the codefios login page
+    When User Enters username "demo@codefios.com"
+    When User enters password "abc124"
+    When User clicks on signin button
+    Then User should land on dashboard page

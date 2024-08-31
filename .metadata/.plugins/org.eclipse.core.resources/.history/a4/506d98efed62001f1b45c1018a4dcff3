@@ -1,0 +1,27 @@
+package runners;
+
+
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class)//Junit library 
+@CucumberOptions(
+		//---------------------------------------------------------------
+		features="src\\test\\resources\\features\\CodefiosLogin.feature",
+		glue="steps",//this referring to the package which holds all the step definitions class
+		//tags="",
+		monochrome=true,
+		dryRun=false,
+		plugin= {
+				"pretty",
+				"html:target/report/cucumber.html",
+				"json:target/reports/cucumber.json"
+		}
+		
+		)
+public class LoginRunner {
+
+}

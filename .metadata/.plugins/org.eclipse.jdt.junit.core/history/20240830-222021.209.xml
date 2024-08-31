@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LoginRunner" project="Cucumber" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="runners.LoginRunner" time="41.62">
+    <testsuite name="Codefios Other Add New Account validation" time="41.62">
+      <testcase name="User should be able to loging succefully and add a new account" classname="Codefios Other Add New Account validation" time="41.62">
+        <error>java.lang.Error: Unresolved compilation problem: 
+	Unhandled exception type InterruptedException
+&#13;
+	at pages.AddAccount.click_save(AddAccount.java:82)&#13;
+	at steps.AddAccountStepdefination.user_clicks_on_Save(AddAccountStepdefination.java:96)&#13;
+	at ✽.User clicks on Save(file:///C:/Users/gshin/eclipse-workspace/Cucumber/Cucumber/src/test/resources/features/AddAccount.feature:19)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

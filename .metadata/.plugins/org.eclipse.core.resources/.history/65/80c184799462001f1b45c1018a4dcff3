@@ -1,0 +1,6 @@
+Feature: Codefios login functionality VAlidation
+
+Scenario: User should be able to login with valid credential 
+Given User is on the codefios login page 
+When User Enters username "demo@codefios.com"
+When User enters password "abc123"
