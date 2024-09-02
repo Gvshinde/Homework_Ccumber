@@ -85,18 +85,19 @@ public class AddAccount {
 		return driver.getTitle();
 		
 	}
-	public String[] record_validation() {
+	public void record_validation() {
 		//tbody/tr[1]/td[2]
 		String Before_xpath="//tbody/tr[";
 		String after_xpath="]/td[2]";
-		int j=0;
+		
 		for(int i=1;i<6;i++) {
 			//driver.findElement(By.xpath("//tbody/tr[1]/td[2]"))
 			String actual_text=driver.findElement(By.xpath(Before_xpath+i+after_xpath)).getText();
 		    System.out.println(actual_text);
-		   mylist[j]=actual_text;
+		   
 		}
-		return mylist;
+		
+		
 	}
 	
 	

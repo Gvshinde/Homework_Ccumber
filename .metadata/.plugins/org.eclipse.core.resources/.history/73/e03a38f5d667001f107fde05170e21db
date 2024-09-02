@@ -1,0 +1,22 @@
+package pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+
+public class DashBoardPage{
+	WebDriver driver;
+	@FindBy(how=How.XPATH, using="//span[text()='List Accounts']")
+	WebElement listaccounts;
+	@FindBy(how=How.XPATH,using="//button[text()='Add Account']")
+	WebElement addaccount;
+	
+	public void click_listacct() {
+		listaccounts.click();
+	}
+	public void click_addacct() {
+		addaccount.click();
+	}
+
+}

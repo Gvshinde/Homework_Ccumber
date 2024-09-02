@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LoginRunner" project="Cucumber" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="runners.LoginRunner" time="36.315">
+    <testsuite name="Codefios Other Add New Account validation" time="36.315">
+      <testcase name="User should be able to loging succefully and add a new account" classname="Codefios Other Add New Account validation" time="36.315"/>
+    </testsuite>
+  </testsuite>
+</testrun>
