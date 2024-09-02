@@ -5236,3 +5236,11 @@
 2024-09-01 22:32:56,241 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\gshin\eclipse-workspace\Cucumber\Cucumber\src\main\resources
 2024-09-01 22:32:56,245 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-09-01 22:32:56,245 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-09-01 22:37:56,479 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-09-01 22:37:56,479 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\gshin\eclipse-workspace\Cucumber\Cucumber\src\main\resources
+2024-09-01 22:37:56,481 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-09-01 22:37:56,481 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-09-01 22:42:56,659 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-09-01 22:42:56,659 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\gshin\eclipse-workspace\Cucumber\Cucumber\src\main\resources
+2024-09-01 22:42:56,660 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-09-01 22:42:56,660 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
